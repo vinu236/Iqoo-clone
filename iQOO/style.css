@@ -1,0 +1,163 @@
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin: 0px auto;
+    gap: 15px;
+}
+}
+
+  
+  
+  .nav-item a{
+    color: white;
+  } 
+  .navbar{
+    background-color: rgb(22, 7, 7);
+  } 
+  
+
+  /* card section */
+  .cards{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+.img_thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+   
+}
+
+.img-hover-zoom{
+overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.10);
+}
+
+#row-main{
+    margin: 0px 31px !important;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    border-bottom: 1px solid;
+}
+
+  .dropdown-menu a{
+    color: black;
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+  img {
+    width: 98px;
+    height: 23px;
+}
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+
+  .purchase a{
+    color: rgb(182, 174, 174);
+  }
+  .purchase a:hover{
+    color: red;
+  }
+  .support a{
+    color: rgb(177, 172, 172);
+  }
+  .support a:hover{
+    color: red;
+  }
+  .about a{
+    color: rgb(189, 175, 175);
+   
+  }
+  .about a:hover{
+    color: red;
+  }
+  .care a{
+    color: rgb(148, 140, 140);
+  }
+  .care a:hover{
+    color: red;
+  }
+  .nav-link foot a:hover{
+    color: red;
+    
+  }
+  .navbar-nav a:hover{
+    color: red;
+  }
+  .container{
+    display: flex;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .d-flex a:hover{
+    color: red;
+  }
+  #footer{
+    background-color: black;
+    color: rgb(148, 144, 144);
+    height: 80px;
+  }
+  
+  
+  .close{
+    
+    position: absolute;
+    top: -15;
+    right: -15;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4 px rgba(0,0,0,0.75);
+    cursor: pointer;
+    
+  }
+  #background{
+    max-width: 150%;
+    background-color: black;
+  }
+
+
+
+  .footer{
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 15px;
+   
+    /* align-items: center;
+    justify-content: flex-start; */
+    
+  }
+
+
+  .terms{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .terms .left{
+    width: 80%;
+    display: flex;
+  }
+  .terms .right{
+    width: 20%;
+  }
+  .terms .left a{
+    margin-right: 15px;
+  }
